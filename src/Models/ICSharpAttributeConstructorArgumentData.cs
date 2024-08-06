@@ -6,5 +6,5 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 public interface ICSharpAttributeConstructorArgumentData
 {
     /// <summary>The syntactic data about the C# attribute constructor argument.</summary>
-    public abstract AttributeArgumentSyntax Argument { get; }
+    public abstract AttributeArgumentSyntax SyntacticArgument { get; }
 }
